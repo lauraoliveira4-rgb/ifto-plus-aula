@@ -1,0 +1,64 @@
+:root{
+
+    --cor-de-fundo:#0B0A14;
+    --branco-principal: #FFFFFF;
+    --BOTAO-AZUL: #167BF7;
+    --cinza: #C0C0C0;
+    --FONTE: "INTER";
+   --efeito-lista: purple;
+   --botao-azul: #A860AA;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0B0A14;
+    color:#FFFFFF;
+    font-family: var(--FONTE);
+    font-size: 1rem;
+}
+.principal{
+    background-image: url('../img/new_fundo\ 1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+.container_caixa{
+margin-left: 2rem;
+margin-right: 10rem;
+margin-top: 0;
+margin-bottom: 0;
+    
+}
+
+.container__titulo{
+    font-size: 1.75rem;
+
+}
+.container_imagem{
+    margin-top: 1rem;
+    margin-right: 0;
+    margin-bottom: 2rem;
+    margin-left: 0;
+}
+.container_botão{
+    background-color: #167BF7;
+    border-radius: 0.5rem;
+    padding:1rem;
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1rem;
+
+}
+
+    
